@@ -13,7 +13,7 @@ CREATE TABLE products(
   PRIMARY KEY (item_id) 
 );
 
-INSERT INTO product (product_name, department_name, price, stock_quantity) VALUES 
+INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES 
 ('Remington Hair Dryer', 'Electronics', '$19.96', 10),
 ('Shoehorn', 'Shoes', '$8.95', 70),
 ('Pet Brush', 'Pets', '$15.99', 40),
